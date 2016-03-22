@@ -56,6 +56,7 @@ set winminheight=5
 set winheight=999
 
 set splitbelow splitright
+let g:airline#extensions#branch#enabled=1
 
 "if has('mouse')
 "  set mouse=a
