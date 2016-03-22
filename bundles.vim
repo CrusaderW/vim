@@ -33,7 +33,7 @@ NeoBundle 'Shougo/vimproc.vim', {
 
 NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'vim-airline/vim-airline-themes'
-NeoBundle 'Shougo/unite.vim'
+NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'ervandew/supertab'
 NeoBundle 'SirVer/ultisnips'
 NeoBundle 'honza/vim-snippets'
