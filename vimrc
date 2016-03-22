@@ -57,9 +57,9 @@ set winheight=999
 
 set splitbelow splitright
 
-if has('mouse')
-  set mouse=a
-endif
+"if has('mouse')
+"  set mouse=a
+"endif
 
 "  ---------------------------------------------------------------------------
 "  Text Formatting
@@ -99,16 +99,14 @@ noremap <tab> :bn<CR>
 noremap <S-tab> :bp<CR>
 vnoremap <C-c> "+y
 
-
 "  ---------------------------------------------------------------------------
 "  Custom Keymappings
 "  ---------------------------------------------------------------------------
 
-
 nnoremap <C-p> :NERDTreeToggle<CR>
 
 "  ---------------------------------------------------------------------------
-"  Plugins
+"  GoMetaLinter
 "  ---------------------------------------------------------------------------
 
 let g:syntastic_go_checkers = ['gometalinter']
