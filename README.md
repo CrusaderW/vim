@@ -34,12 +34,12 @@ Then install vim:
 BASH
 --------------
 ```
-$ git clone https://github.com/CrusaderW/vim.git ~/.vim && make ~/.vim/bundle/vimproc.vim/ && ~/.vim/bundle/neobundle.vim/bin/neoinstall && cd ~/.vim/bundle/YouCompleteMe/ && git submodule update --init --recursive && ./install.sh
+$ git clone https://github.com/CrusaderW/vim.git ~/.vim && make ~/.vim/bundle/vimproc.vim/ && ~/.vim/bundle/neobundle.vim/bin/neoinstall && ln -s ~/.vim/.pylintrc ~/.pylintrc && cd ~/.vim/bundle/YouCompleteMe/ && git submodule update --init --recursive && ./install.sh
 ```
 FISH
 ---------------
 ```
-$ git clone https://github.com/CrusaderW/vim.git ~/.vim; and make ~/.vim/bundle/vimproc.vim/; and ~/.vim/bundle/neobundle.vim/bin/neoinstall; and cd ~/.vim/bundle/YouCompleteMe/; and git submodule update --init --recursive; and ./install.py
+$ git clone https://github.com/CrusaderW/vim.git ~/.vim; and make ~/.vim/bundle/vimproc.vim/; and ~/.vim/bundle/neobundle.vim/bin/neoinstall; and ln -s ~/.vim/.pylintrc ~/.pylintrc; and cd ~/.vim/bundle/YouCompleteMe/; and git submodule update --init --recursive; and ./install.py
 ```
 Finally just install the [Powerline-Font] located in folder
 powerline_font and set it as Terminal-Font.

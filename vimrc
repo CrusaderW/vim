@@ -113,6 +113,13 @@ nnoremap <C-p> :NERDTreeToggle<CR>
 let g:syntastic_go_checkers = ['gometalinter']
 
 "  ---------------------------------------------------------------------------
+"  PyLinter 
+"  ---------------------------------------------------------------------------
+"
+let g:syntastic_python_checkers = ['pylint']
+let g:syntastic_python_pylint_args = '--rcfile=/home/christianwirth/.pylintrc' 
+
+"  ---------------------------------------------------------------------------
 "  Plugins
 "  ---------------------------------------------------------------------------
 "
