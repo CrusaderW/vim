@@ -66,10 +66,10 @@ let g:airline#extensions#branch#enabled=1
 "  Text Formatting
 "  ---------------------------------------------------------------------------
 
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
-set noexpandtab
+set sw=2
+set tabstop=2
+set softtabstop=2
+set expandtab
 
 set nowrap
 set textwidth=79
@@ -135,12 +135,13 @@ runtime! plugin_cfg/*.vim
 "  ---------------------------------------------------------------------------
 "
 augroup vimrc_autocmds
-      autocmd!
-          " highlight characters past column 120
-          autocmd FileType python highlight Excess ctermbg=DarkGrey guibg=Black
-          autocmd FileType python match Excess /\%120v.*/
-          autocmd FileType python set nowrap
-          augroup END
+	autocmd!
+		" highlight characters past column 120
+        autocmd FileType python highlight Excess ctermbg=DarkGrey guibg=Black
+        autocmd FileType python match Excess /\%120v.*/
+        autocmd FileType python set nowrap
+		autocmd FileType python setlocal sw=4
+        augroup END
 
 "  ---------------------------------------------------------------------------
 "  Colors
