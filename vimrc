@@ -81,6 +81,9 @@ if exists("+colorcolumn")
   set colorcolumn=80
 endif
 
+" Removes tailing whitespaces on save (I guess)
+autocmd BufWritePre * :%s/\s\+$//e|noh
+
 "  ---------------------------------------------------------------------------
 "  Mappings
 "  ---------------------------------------------------------------------------
