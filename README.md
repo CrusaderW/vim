@@ -18,36 +18,47 @@ Install
 -------------
 The following commands will clone the repository and install neobundle and [YouCompleteMe]
 Before proceeding make sure the following packages are installed: 
-  Linux
+
+Linux
 -------------
-``` sudo apt-get install build-essential cmake python-dev ```
+`` sudo apt-get install build-essential cmake python-dev``
+
 MacOS X
 --------------
 On MacOS X make sure you have Homebrew installed. And install the following packages: 
 
-``` brew install cmake mercurial```
+`` brew install cmake mercurial``
 
 Then install vim:
 
-```brew install macvim --override-system-vim```
+``brew install macvim --override-system-vim``
 
 BASH
 --------------
-```
+``
 $ git clone https://github.com/CrusaderW/vim.git ~/.vim && make ~/.vim/bundle/vimproc.vim/ && ~/.vim/bundle/neobundle.vim/bin/neoinstall && ln -s ~/.vim/.pylintrc ~/.pylintrc && cd ~/.vim/bundle/YouCompleteMe/ && git submodule update --init --recursive && ./install.sh --clang-completer
-```
+``
+
 FISH
 ---------------
-```
+``
 $ git clone https://github.com/CrusaderW/vim.git ~/.vim; and make ~/.vim/bundle/vimproc.vim/; and ~/.vim/bundle/neobundle.vim/bin/neoinstall; and ln -s ~/.vim/.pylintrc ~/.pylintrc; and cd ~/.vim/bundle/YouCompleteMe/; and git submodule update --init --recursive; and ./install.sh --clang-completer
-```
+``
 Finally just install the [Powerline-Font] located in folder
 powerline_font and set it as Terminal-Font.
-[jellybeans.vim]: http://blog.infinitered.com/entries/show/6
-[crahles]: https://github.com/crahles/vim
-[this Blogpost]: http://bleibinha.us/blog/2013/08/my-vim-setup-for-scala.
-[vim-scala]: https://github.com/derekwyatt/vim-scala
-[stackoverflow_vim-copy'n'paste]: http://stackoverflow.com/questions/11489428/how-to-make-vim-paste-from-and-copy-to-systems-clipboard
-[Powerline-Font]:  https://github.com/powerline/fonts
-[YouCompleteMe]: https://github.com/Valloric/YouCompleteMe
-[Ultisnips]: https://github.com/SirVer/ultisnips
+
+[jellybeans.vim](http://blog.infinitered.com/entries/show/6)
+
+[crahles](https://github.com/crahles/vim)
+
+[this Blogpost](http://bleibinha.us/blog/2013/08/my-vim-setup-for-scala.)
+
+[vim-scala](https://github.com/derekwyatt/vim-scala)
+
+[stackoverflow_vim-copy'n'paste](http://stackoverflow.com/questions/11489428/how-to-make-vim-paste-from-and-copy-to-systems-clipboard)
+
+[Powerline-Font](https://github.com/powerline/fonts)
+
+[YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
+
+[Ultisnips](https://github.com/SirVer/ultisnips)
