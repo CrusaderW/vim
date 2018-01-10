@@ -66,7 +66,6 @@ NeoBundle 'crahles/vim-gometalinter.vim'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-bundler'
 NeoBundle 'tpope/vim-rails'
-NeoBundle 'evanmiller/nginx-vim-syntax'
 NeoBundle 'posva/vim-vue'
 
  call neobundle#end()
