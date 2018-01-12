@@ -67,6 +67,8 @@ NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-bundler'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'posva/vim-vue'
+NeoBundle 'leafgarland/typescript-vim'
+NeoBundle 'quramy/tsuquyomi'
 
  call neobundle#end()
 
