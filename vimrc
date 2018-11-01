@@ -122,7 +122,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_go_checkers = ['gometalinter']
 let g:syntastic_python_checkers = ['pylint']
-let g:syntastic_python_pylint_args = '--rcfile=/home/christianwirth/.pylintrc' 
+let g:syntastic_python_pylint_args = '--rcfile=/home/christianwirth/.pylintrc'
 let g:syntastic_c_checkers = ['gcc', 'make']
 let g:syntastic_c_compiler = 'make'
 let g:ycm_show_diagnostics_ui = 0
@@ -152,6 +152,11 @@ augroup vimrc_autocmds
 let s:uname = system("echo -n \"$(uname)\"")
 if !v:shell_error && s:uname == "Linux"
   set t_Co=256
+endif
+let s:uname = system("echo -n \"$(uname)\"")
+if !v:shell_error && s:uname == "Microsoft"
+  set t_Co=256
+  set rtp+=/usr/share/powerline/bindings/vim/
 endif
 set background=dark
 colorscheme jellybeans
