@@ -61,6 +61,7 @@ elseif executable('ack')
   NeoBundle 'mileszs/ack.vim'
 endif
 
+NeoBundle 'rust-lang/rust.vim'
 NeoBundle 'fatih/vim-go'
 NeoBundle 'crahles/vim-gometalinter.vim'
 NeoBundle 'vim-ruby/vim-ruby'
